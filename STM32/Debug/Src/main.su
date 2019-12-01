@@ -1,0 +1,14 @@
+main.c:16:5:main	8	static
+main.c:71:5:toInt	16	static
+main.c:80:6:HAL_UART_RxCpltCallback	16	static
+main.c:99:6:Set_M1_Direction	24	static
+main.c:129:6:Set_M2_Direction	24	static
+main.c:159:6:Set_M3_Direction	24	static
+main.c:190:6:Set_M4_Direction	24	static
+main.c:222:6:Set_M5_Direction	24	static
+main.c:249:6:Move_to_ColorQRCode	16	static
+main.c:296:6:Horizontal_to_PickUpQRCode	8	static
+main.c:343:6:Vertical_to_QRCode	8	static
+main.c:389:6:Vertical_to_Color	8	static
+main.c:461:6:OpenGripper	8	static
+main.c:472:6:CloseGripper	8	static
