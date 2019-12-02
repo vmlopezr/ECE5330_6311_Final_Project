@@ -73,6 +73,7 @@ A virtual environment may be set up locally if needed. The instructions in this 
 5. Use the following command to install _numpy_. Click here for the [Numpy](https://pypi.org/project/numpy/) page.
    - `python3 -m pip install numpy --upgrade`
 
+
 ## **Running the Python Application**
 
 1. Download the project by either cloning to a local folder, or downloading the repository as a zip file and extracting.
@@ -101,6 +102,7 @@ A virtual environment may be set up locally if needed. The instructions in this 
      
      The **COM PORT** must be available on the computer (Device Manager on Windows) for the Python application to run successfully.
      See the [Serial Communication](##Serial%20Communication) section for instructions on setting up the converter.
+
 
 # **STM32 Microcontroller**
 The STM32F4 Discovery board was programmed using STM32CubeIDE. The entire project folder for the microcontroller firmware can be found in the [STM32 folder](./STM32/).
