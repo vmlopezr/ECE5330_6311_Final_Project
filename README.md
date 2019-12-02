@@ -1,4 +1,4 @@
-# **ECE 5330 Final Project: Lego Color Sorting via Camera Feedback**
+# **ECE5330 Final Project: Lego Color Sorting via Camera Feedback**
 
 Clone the repo to a local folder in your computer.
 **Note:** This application uses Python 3.5 and up. Verify that the python installation location is in PATH.
@@ -148,6 +148,10 @@ To program the microcontroller:
 | PA3| USART2_RX| | USART2 Receiver pin|
 
 See [Motor Driver Connections](#Motor-Driver-Connections) for information on the pin connections between the microcontroller and L298N Driver module.
+
+![Alt text](./images/Robot.png "Robot naming convention")
+
+The picture above shows the OWI-535 Robot Arm used with the motor labels. Each Label in the [pins](#Pin-Connections) section corresponds to one of the motors. Note that the USB Webcam is attached to the Robot head, above the Gripper (Motor 5).
 ## **Serial Communication**
 
 ![Alt text](./images/Serial_Pin_Connections.png "USB-TTL Pin Connections")
