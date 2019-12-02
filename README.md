@@ -1,4 +1,4 @@
-# **ECE5330 Final Project: Lego Color Sorting via Camera Feedback**
+# **ECE5330/ECE6311 Final Project: Lego Color Sorting via Camera Feedback**
 
 Clone the repo to a local folder in your computer.
 **Note:** This application uses Python 3.5 and up. Verify that the python installation location is in PATH.
@@ -184,3 +184,5 @@ In order to run the entire project the following conditions must be completed:
 5. Verify that the USB Webcam is connected to a USB Port and verify its Capture Device Number. See [Running the Python Application](#Running-the-Python-Application) for more details.
 
 Once the conditions above are completed, run the python application first before pressing the blue `USER` button on the microcontroller.
+
+This project was created by Victor M. Lopez Rodriguez and Sankalp Parekh.
