@@ -27,23 +27,23 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   ALLOC
  11 .ARM.attributes 00000030  00000000  00000000  0002000c  2**0
                   CONTENTS, READONLY
- 12 .debug_info   0000b782  00000000  00000000  0002003c  2**0
+ 12 .debug_info   0000b784  00000000  00000000  0002003c  2**0
                   CONTENTS, READONLY, DEBUGGING
- 13 .debug_abbrev 00001a3d  00000000  00000000  0002b7be  2**0
+ 13 .debug_abbrev 00001a66  00000000  00000000  0002b7c0  2**0
                   CONTENTS, READONLY, DEBUGGING
- 14 .debug_aranges 00000c20  00000000  00000000  0002d200  2**3
+ 14 .debug_aranges 00000c20  00000000  00000000  0002d228  2**3
                   CONTENTS, READONLY, DEBUGGING
- 15 .debug_ranges 00000b48  00000000  00000000  0002de20  2**3
+ 15 .debug_ranges 00000b48  00000000  00000000  0002de48  2**3
                   CONTENTS, READONLY, DEBUGGING
- 16 .debug_macro  00015f45  00000000  00000000  0002e968  2**0
+ 16 .debug_macro  00015f45  00000000  00000000  0002e990  2**0
                   CONTENTS, READONLY, DEBUGGING
- 17 .debug_line   00008a17  00000000  00000000  000448ad  2**0
+ 17 .debug_line   00008a19  00000000  00000000  000448d5  2**0
                   CONTENTS, READONLY, DEBUGGING
- 18 .debug_str    0008afea  00000000  00000000  0004d2c4  2**0
+ 18 .debug_str    0008afea  00000000  00000000  0004d2ee  2**0
                   CONTENTS, READONLY, DEBUGGING
- 19 .comment      0000007b  00000000  00000000  000d82ae  2**0
+ 19 .comment      0000007b  00000000  00000000  000d82d8  2**0
                   CONTENTS, READONLY
- 20 .debug_frame  00003294  00000000  00000000  000d832c  2**2
+ 20 .debug_frame  00003294  00000000  00000000  000d8354  2**2
                   CONTENTS, READONLY, DEBUGGING
 
 Disassembly of section .text:
@@ -7802,6 +7802,7 @@ static void UART_SetConfig(UART_HandleTypeDef *huart)
  8002ea8:	51eb851f 	.word	0x51eb851f
 
 08002eac <SystemClock_Config>:
+  */
 #include "Configuration.h"
 #include "main.h"
 

@@ -1,7 +1,7 @@
 # **ECE5330/ECE6311 Final Project: Lego Color Sorting via Camera Feedback**
 
 Clone the repo to a local folder in your computer.
-**Note:** This application uses Python 3.5 and up. Verify that the python installation location is in PATH.
+
 
 # **Table of Contents**
 
@@ -19,6 +19,9 @@ Clone the repo to a local folder in your computer.
 - [Running the Project](#Running-the-Project)
 
 # **Project Description**
+The following is our final project for ECE5330/ECE6311. It uses a USB Webcam, controlled via python, and a STM32F4 microcontroller to control a OWI-535 Robot Arm to sort objects based on color. The Robot Arm navigates itself using QR Codes and the Camera as positioning feedback. 
+
+This project can be seen in the following [Youtube Link](https://www.youtube.com/watch?v=eLcRGpxVBoI).
 
 The project is composed of two sections:
 
@@ -78,22 +81,25 @@ A virtual environment may be set up locally if needed. The instructions in this 
 
 1. Download the project by either cloning to a local folder, or downloading the repository as a zip file and extracting.
 
-2. Navigate to the project folder on your terminal.
+2. Navigate to the project folder on your terminal. The Python folder contains the Python application.
+
 3. Enter either of the following commands to run the python application. Before running, connect a USB webcam to the computer.
 
    - To run the application with default capture device 0 and no serial communication, run without arguments:
 
-     `python3 Camera_Data_Detection.py`
+     `python3 .\Python\Camera_Data_Detection.py`
+     
+     **Note:** Use the following command: `python3 Camera_Data_Detection.py` if the active directory is the Python folder. If the active directory is the local repo directory use the commands listed.
 
    - To run the application without serial communication and different capture device:
 
-     `python3 Camera_Data_Detection.py 1`
+     `python3 .\Python\Camera_Data_Detection.py 1`
 
      **Note:** The argument 1 is used to set the openCV video capture device. On laptops, the built-in webcam may be set as capture device 0. Extra USB webcams may be set as capture device 1 or above.
 
    - To run the application with a specific capture device and serial port use:
 
-     `python3 Camera_Data_Detection.py 1 COM3`
+     `python3 .\Python\Camera_Data_Detection.py 1 COM3`
 
      **Note:** The second argument 'COM#' especifies the Windows COM Port for the microcontroller.  
       - On Linux distros or Mac OS, USB devices are usually listed under _/dev/_ as _/dev/TTYSx_ or _/dev/TTYUSBx/_.
