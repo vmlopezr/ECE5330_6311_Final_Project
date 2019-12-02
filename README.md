@@ -107,7 +107,7 @@ A virtual environment may be set up locally if needed. The instructions in this 
      **WARNING:** The STM32F411VE microcontroller does not have a USB-to-Serial converter chip such as Arduinos have. A separate USB-to-TTL adapter must be used with the STM32 pins.  
      
      The **COM PORT** must be available on the computer (Device Manager on Windows) for the Python application to run successfully.
-     See the [Serial Communication](##Serial%20Communication) section for instructions on setting up the converter.
+     See the [Serial Communication](#Serial-Communication) section for instructions on setting up the converter.
 
 
 # **STM32 Microcontroller**
@@ -187,7 +187,7 @@ The OWI-535 Arm has five DC motors. As a result, three L298N Modules will be nee
 In order to run the entire project the following conditions must be completed:
 1. Set all of the L298N Connections with the Microcontroller. See the [Motor Driver Connections](#Motor-Driver-Connections) section for more details.
 2. Verify the OWI-535 Robot Arm motor connections with the L298N Module.
-3. Set all of the Serial-to-TTL connections between the Microcontroller and the adapter. See [Serial Communication](##Serial%20Communication) section for more details.
+3. Set all of the Serial-to-TTL connections between the Microcontroller and the adapter. See [Serial Communication](#Serial-Communication) section for more details.
 4. Verify that the USB-to-TTL adapter is plugged into a computer USB Port, and verify its COM Port.
 5. Verify that the USB Webcam is connected to a USB Port and verify its Capture Device Number. See [Running the Python Application](#Running-the-Python-Application) for more details.
 
